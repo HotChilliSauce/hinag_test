@@ -53,7 +53,7 @@
 
 /*mainRow02*/
 .mainRow02{
-    background: #f3f8f8;
+    background: #fdfdfd;
     width: 1920px;
     text-align: center;
     margin: 0 auto;
@@ -122,6 +122,7 @@
     overflow: hidden;
     position:relative;
     margin: 0 auto;
+    margin-top: 120px;
 }
 .mainRow03Txt{
     width: 1200px;

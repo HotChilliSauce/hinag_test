@@ -127,13 +127,12 @@
 
 .footerBottom{
     width: 1920px;
-    height: 254px;
-    background: url(../images/common/footerBg02.jpg)no-repeat;
+    background: #303030;
     margin: 0 auto;
     margin-top: 80px;
 }
 .footerInfo{
-    padding: 55px 0 0 0;
+    padding: 40px 0;
 }
 .footerBottom .footerLogo{
     float: left;
@@ -152,7 +151,7 @@
     display: inline-block;
     width: 1px;
     height: 9px;
-    background: #282828;
+    background: #fff;
     margin: 0 10px;
 }
 .footerInfo ul li:last-child:after{
@@ -163,14 +162,15 @@
     padding: 32px 0 0 30px;
 }
 .infoTxt ul{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .infoTxt .first{
     padding-left: 60px;
 }
 .infoTxt ul li{
+    color: #fff;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 14px;
 }
 .infoTxt .first:before{
@@ -178,10 +178,11 @@
     display: inline-block;
     width: 1px;
     height: 9px;
-    background: #282828;
+    background: #fff;
     margin: 0 10px;
 }
 .infoTxt p{
+    color: #fff;
     font-size: 17px;
     font-weight: 400;
     padding-top: 10px;
@@ -190,7 +191,7 @@
     float: right;
 }
 .footerSns li{
-    margin-left: 10px;
+    margin-left: 15px;
 }
 .footerSns li a{
     display: block;
