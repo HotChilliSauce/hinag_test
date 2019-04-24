@@ -87,8 +87,37 @@
 .row02Box.mBox{
     width: 580px;
     height: 330px;
+    background: #ddd;
     float: left;
     margin-bottom: 40px;
+}
+.row02Box.mBox a{
+}
+.row02Box.mBox .menuInfo{
+    width: 100%;
+}
+.row02Box.mBox ul{
+    margin: 80px 50px;
+}
+.row02Box.mBox ul li{
+    position: relative;
+    width: 440px;
+    margin: 5px 0;
+}
+.row02Box.mBox ul li a{
+    width: 300px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-right: 86px;
+}
+.row02Box.mBox ul li span{
+    line-height: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 .row02Box.lBox{
     width: 580px;
