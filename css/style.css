@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 .fadein{
+    margin-top: 80px;
     position: relative;
 }
 .fadein img{
@@ -9,6 +10,7 @@
     left: 0;
     right: 0;
     bottom: 0;
+    margin-top: 80px;
 }
 .mainSliderTxt{
     width: 1200px;
@@ -17,7 +19,7 @@
     background-size: 100%;
     text-indent: -9999px;
     margin-left: -600px;
-    margin-top: -241px;
+    margin-top: -209px;
     position: absolute;
     left: 50%;
     z-index: 99;
