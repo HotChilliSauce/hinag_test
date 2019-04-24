@@ -191,9 +191,6 @@
     margin-left: 0;
 }
 
-/*.row04Info div:hover .off{
-    display: none;
-}*/
 
 .row04Info .row04Box01{
     background: url(../images/info360_test.jpg)no-repeat;
@@ -211,8 +208,10 @@
 .row04Info a{
     height: 100%;
     display: block;
+    background: rgba(45,90,121,0);
+    transition: background 0.5s;
 }
-.row04Info .row04:hover{
+.row04Info .row04 a:hover{
     background: rgba(45,91,121,0.7);
 }
 .row04Tit{
