@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+#container{
+    padding-top: 0;
+}
 .fadein{
     height: 820px;
     margin-top: 80px;
@@ -14,6 +17,7 @@
     right: 0;
     bottom: 0;
     margin-top: 80px;
+    margin: 0 auto;
 }
 .mainSliderTxt{
     width: 1200px;
@@ -21,25 +25,31 @@
     background: url(../images/mainSliderTxt03.png) no-repeat;
     background-size: 100%;
     text-indent: -9999px;
-    margin-left: -600px;
-    margin-top: -209px;
     position: absolute;
-    left: 50%;
     z-index: 99;
+    left: 50%;
     top: 50%;
+    margin-left: -600px;
+    margin-top: -214px;
 }
 
 /*mainRow01*/
 .mainRow01{
-    padding: 40px 0;
+    padding: 120px 0;
 }
 .row01Box{
+    width: 463px;
+    height: 235px;
+    background: url(../images/mainRow01Txt.png) no-repeat;
+    margin: 0 auto;
+}
+/*.row01Box{
     width: 500px;
     height: 250px;
     line-height: 30px;
     margin: 0 auto;
     margin-top: 100px;
-}
+}*/
 .row01Box h3{
     color: #282626;
     text-align: center;

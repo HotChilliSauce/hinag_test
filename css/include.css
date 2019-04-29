@@ -18,8 +18,8 @@
     display: block;
 }
 #header .inner h1 a img{
-    width: 140px;
-    height: 35px;
+    width: 178px;
+    height: 45px;
 }
 
 /*gnb*/
@@ -42,6 +42,8 @@
     display: block;
     padding: 5px;
 }
+.gnbAct:hover .gndName{
+}
 .gnbAct:hover .lnb{
     max-height: 1000px
 }
@@ -49,11 +51,11 @@
     content: "";
     display: block;
     width: 0;
-    height: 1px;
-    background: #000;
+    height: 2px;
+    background: #008cff;
     margin: 0 auto;
     margin-top: 5px;
-    transition: all 0.7s linear;
+    transition: all 0.2s linear;
 }
 .gnbAct:hover a:after{
     width: 100%;

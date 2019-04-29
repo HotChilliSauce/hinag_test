@@ -13,7 +13,6 @@
 <link rel="stylesheet" href="css/loading.css" type="text/css"/>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="shortcut icon" href="#" type="image/x-icon"/>
-<link rel="shortcut icon" href="" type="image/x-icon"/>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/slick.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -51,8 +50,8 @@
 });
 </script>
 <style>
-    .fadein { position:relative; height:820px; width:100%; overflow: hidden;}
-    .fadein img { position:absolute; margin: 0 auto;}
+    .fadein { position:relative; height:820px; width:100%;}
+    .fadein img { position:absolute;}
 </style>
 </head>
 <body>
@@ -68,30 +67,29 @@
     <div class="inner cf">
         <!--로고시작-->
         <h1>
-            <a href="index.html"><img src="./images/common/logo02.png" alt="로고"/></a>
+            <a href="index.html"><img src="images/common/logo.png" alt="로고"/></a>
         </h1>
         <!--로고끝-->
         <!--gnb시작-->
         <ul class="gnb cf">
             <li class="gnbAct">
-                <a href="#">회사소개</a>
+                <a href="sub/company.html" class="gndName">회사소개</a>
                 <!--2차메뉴-->
                 <ul class="lnb">
                     <li class="lnbS">
                         <p>기업정보</p>
                         <!--3차메뉴-->
                         <ul class="lnbSlnb">
-                            <li><a href="#">&#150; 회사개요</a></li>
-                            <li><a href="#">&#150; 연혁</a></li>
+                            <li><a href="sub/company.html">&#150; HiNAG WAY</a></li>
                             <li><a href="#">&#150; CI</a></li>
                             
                         </ul>
                     </li>
-                    <li><a href="#">CEO인사말</a></li>
+                    <!--<li><a href="#">CEO인사말</a></li>-->
                 </ul>
             </li>
             <li class="gnbAct">
-                <a href="#">제품</a>
+                <a href="#" class="gndName">제품</a>
                 <!--2차메뉴-->
                 <ul class="lnb">
                     <li><a href="#">신상</a></li>
@@ -120,29 +118,30 @@
                 </ul>
             </li>
             <li class="gnbAct">
-                <a href="#">라이센스</a>
+                <a href="#" class="gndName">라이센스</a>
                 <!--2차메뉴-->
                 <ul class="lnb">
                     <li><a href="#">검사보고서/인증서</a></li>
                 </ul>
             </li>
             <li class="gnbAct">
-                <a href="#">홍보</a>
+                <a href="#" class="gndName">홍보</a>
                 <ul class="lnb">
+                    <li><a href="#">매거진</a></li>
                     <li><a href="#">SNS</a></li>
                     <li><a href="#">블로그</a></li>
                     <li><a href="#">유튜브</a></li>
                 </ul>
             </li>
             <li class="gnbAct">
-                <a href="#">고객지원</a>
+                <a href="#" class="gndName">고객지원</a>
                 <!--2차메뉴-->
                 <ul class="lnb">
                     <li><a href="#">자주묻는질문</a></li>
                     <li><a href="#">오시는길</a></li>
                 </ul>
             </li>
-            <li class="gnbAct"><a href="#">액상계산기</a></li>
+            <li class="gnbAct" class="gndName"><a href="#">액상계산기</a></li>
         </ul>
         <!--gnb끝-->
     </div>
@@ -167,9 +166,9 @@
     <!--mainRow01시작-->
     <div class="mainRow01">
         <div class="row01Box">
-            <h3>MAXIMUM SOLUTION</h3>
+          <!--  <h3>MAXIMUM SOLUTION</h3>
             <p>한 걸음 먼저, 한 차원 높게 다가서는 하이낙의 내일은</p>
-            <p>여러분에게 보다 높은 가치를 선사합니다.</p>
+            <p>여러분에게 보다 높은 가치를 선사합니다.</p>-->
         </div>
     </div>
     <!--mainRow01끝-->
@@ -182,7 +181,7 @@
                 <!--메뉴-->
                 <div class="leftBox cf">
                     <!--공지시작-->
-<!--                    <div class="row02Box mBox cf">
+                    <!--<div class="row02Box mBox cf">
                         <a href="#">
                             <img src="http://placehold.it/580x330" alt="메뉴이미지"/>
                             <div class="menuInfo">
@@ -266,9 +265,9 @@
     <div class="mainRow03">
         <div class="mainRow03Txt">메인슬라이더텍스트</div>
         <div class="slider">
-            <div>
+            <!--<div>
                 <img src="images/mainRow03Bg02.jpg" alt="슬라이더이미지"/>
-            </div>
+            </div>-->
             <div>
                 <img src="images/mainRow03Bg01.jpg" alt="슬라이더이미지"/>
             </div>

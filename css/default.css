@@ -32,4 +32,6 @@ a{
     width: 100%;
 }
 #container{
+    width: 100%;
+    padding-top: 80px;
 }
