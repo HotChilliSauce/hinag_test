@@ -1,11 +1,11 @@
 @charset "utf-8";
 
-/*hover*/
+/*상단메뉴 hover*/
 .gnb .gnbAct .on{
     color: #008cff;
 }
 
-/*company*/
+/*juice01*/
 
 .sub01Slider{
     height: 250px;
@@ -45,7 +45,7 @@
     border: 0;
 }
 .nav2{
-    padding: 0 30px;
+    width: 160px;
 }
 .subNav li a{
     background: url(../images/common/icon_ar.png) no-repeat;
@@ -73,6 +73,9 @@
     overflow: hidden;
     transition: max-height 0.2s;
 }
+.nav2:hover .nav3Lnb{
+    max-height: 500px;
+}
 .nav3:hover .nav3Lnb{
     max-height: 500px;
 }
@@ -89,48 +92,52 @@
     background-position: right center;
 }
 
-/*회사소개*/
-.companyInfo{
+/*액상내용*/
+/*액상공통*/
+.juiceInfo{
     padding-top: 148px;
 }
-.companyInfo h2{
+.juiceInfo h2{
     font-size: 40px;
     font-weight: 400;
     margin-bottom: 30px;
 }
-.companyInfo img{
-    display: block;
-    margin: 0 auto;
+.juiceInfo ul{
+    float: left;
+    margin-bottom: 80px;
 }
-/*비전*/
+.juiceInfo ul li{
+    margin-right: 66px;
+    float: left;
+}
+.juiceInfo .last{
+    margin-right: 0;
+}
+.juiceInfo h4{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.juiceInfo p{
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.juiceInfo img{
+    display: block;
+}
 .infoTit{
     width: 100%;
     border-bottom: 2px solid #ababab;
     margin-bottom: 85px;
 }
-.info01 img{
-    width: 977px;
-    height: 680px;
-}
-/*회사개요*/
-.info02, .info03, .info04{
+/**/
+.info02, .info03{
     margin-top: 120px;
 }
-.info02 p{
-    line-height: 40px;
-    font-size: 20px;
-    margin: 34px 0 34px 17px;
-}
-/*사업장*/
-.info03 img{
-    width: 821px;
-    height: 151px;
-}
-/*사업영역*/
-.info04{
-    margin-bottom: 120px;
-}
-.info04 img{
-    width: 1024px;
-    height: 513px;
-}
+
+
+
+
+
+
