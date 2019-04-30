@@ -84,6 +84,9 @@
     border-top: 1px solid #e4e4e4;
     border-right: 0;
 }
+.nav3Lnb li:last-child{
+    border-bottom: 1px solid #e4e4e4;
+}   
 .nav3Lnb li a{ 
     background: #fff;
 }
