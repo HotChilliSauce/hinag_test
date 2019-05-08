@@ -5,7 +5,7 @@
     color: #008cff;
 }
 
-/*juice01*/
+/*calc*/
 
 .sub01Slider{
     height: 250px;
@@ -83,11 +83,10 @@
     width: 100%;
     border-top: 1px solid #e4e4e4;
     border-right: 0;
-    border-bottom: 0;
 }
 .nav3Lnb li:last-child{
     border-bottom: 1px solid #e4e4e4;
-}
+}   
 .nav3Lnb li a{ 
     background: #fff;
 }
@@ -96,10 +95,10 @@
     background-position: right center;
 }
 
-/*액상내용*/
-/*액상공통*/
+/*내용*/
+/*공통*/
 .subInfo{
-    padding-top: 148px;
+    padding-top: 140px;
 }
 .subInfo h2{
     font-size: 40px;
@@ -118,14 +117,15 @@
     margin-right: 0;
 }
 .subInfo h4{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
 }
 .subInfo p{
-    font-size: 15px;
+    font-size: 18px;
     font-weight: normal;
     margin-top: 10px;
+    margin-bottom: 50px;
 }
 .subInfo img{
     display: block;
@@ -137,11 +137,5 @@
 }
 /**/
 .info02, .info03{
-    margin-top: 120px;
+    margin-top: 130px;
 }
-
-
-
-
-
-

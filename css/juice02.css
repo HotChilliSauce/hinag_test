@@ -97,36 +97,36 @@
 
 /*액상내용*/
 /*액상공통*/
-.juiceInfo{
+.subInfo{
     padding-top: 148px;
 }
-.juiceInfo h2{
+.subInfo h2{
     font-size: 40px;
     font-weight: 400;
     margin-bottom: 30px;
 }
-.juiceInfo ul{
+.subInfo ul{
     float: left;
     margin-bottom: 80px;
 }
-.juiceInfo ul li{
+.subInfo ul li{
     margin-right: 66px;
     float: left;
 }
-.juiceInfo .last{
+.subInfo .last{
     margin-right: 0;
 }
-.juiceInfo h4{
+.subInfo h4{
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
 }
-.juiceInfo p{
+.subInfo p{
     font-size: 15px;
     font-weight: normal;
     margin-top: 10px;
 }
-.juiceInfo img{
+.subInfo img{
     display: block;
 }
 .infoTit{
