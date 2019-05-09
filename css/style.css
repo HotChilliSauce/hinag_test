@@ -209,13 +209,13 @@
 
 
 .row04Info .row04Box01{
-    background: url(../images/info360_test.jpg)no-repeat;
+    background: url(../images/row04Img01.jpg)no-repeat;
 }
 .row04Info .row04Box02{
-    background: url(../images/info360.jpg)no-repeat;
+    background: url(../images/row04Img02.jpg)no-repeat;
 }
 .row04Info .row04Box03{
-    background: url(../images/info360.jpg)no-repeat;   
+    background: url(../images/row04Img03.jpg)no-repeat;   
 }
 .row04{
     background: rgba(45,90,121,0);
