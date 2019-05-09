@@ -99,22 +99,22 @@
 .row02Box.mBox{
     width: 580px;
     height: 330px;
-    background: #ddd;
+    background: #dfdfdf;
     float: left;
     margin-bottom: 40px;
 }
 .row02Box.mBox a{
 }
 .row02Box.mBox .menuInfo{
-    width: 100%;
 }
 .row02Box.mBox ul{
-    margin: 80px 50px;
+    margin: 80px 70px;
 }
 .row02Box.mBox ul li{
     position: relative;
     width: 440px;
     margin: 5px 0;
+    border-bottom: 1px solid #ccc;
 }
 .row02Box.mBox ul li a{
     width: 300px;
